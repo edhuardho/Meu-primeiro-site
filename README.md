@@ -1,2 +1,2 @@
-# Meu primeiro site
- Meu projeto Genesis
+# Creating my frst website.
+ Genesis
