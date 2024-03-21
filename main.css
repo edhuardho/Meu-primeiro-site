@@ -5,6 +5,12 @@
     font-weight: normal;
 }
 
+body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(270deg, #fffffd 0, #c4c4c6 50%, #747892 100%);
+}
 header .cabe,
 section .sobre{
     display: flex;
@@ -48,10 +54,9 @@ header nav li a{
     margin: 0 auto;
 }
 
-article img{
-    padding: 15px 10px;
+.ds{
+    height: 350px;
 }
-
 ul img{
     height: 30px;
     margin-left: 5px;
@@ -115,7 +120,7 @@ form input, form textarea {
 form button{
     font-weight: bolder;
     display: inline;
-    width: 200px;
+    width: 243px;
     background-color: darkgray;
     color: aliceblue;
     margin-left: 5px;
@@ -129,20 +134,17 @@ button:hover{
     color: aliceblue;
     font-weight: bolder;
 }
-a{
+
+#s2 .sobre .slt a{
     text-decoration: none;
     color: black;
-}
-.simbolo {
     
-    margin: 5px 5px;
-    position: static;
-    margin-top: 5px;
-    margin right: 5px
 }
 
-footer{
-    background-color: darkgray;
-    color: aliceblue;
-    padding: 5px 5px;
+select{
+    margin-left: 5px;
+    appearance: none;
+    width: 187px;
+    cursor: pointer;
+}
 }
