@@ -49,7 +49,7 @@ header nav li a{
 }
 
 .cabe{
-    max-width: 1700px;
+    max-width: 1750px;
     width: 100%;
     margin: 0 auto;
 }
@@ -147,4 +147,14 @@ select{
     width: 187px;
     cursor: pointer;
 }
+
+
+.pe{
+    color: #fffffd;
+    height: 100%;
+    margin-left: 10px;
+}
+
+address{
+    text-decoration: none;
 }
